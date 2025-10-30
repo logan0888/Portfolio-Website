@@ -7,36 +7,51 @@ body {
 --button-bg-color: #616e9e;
 --button-hover-color: #727ba8;
 
+
 /*-----------------------
     TEXT COLORS
 ------------------------*/
 --primary-text-color: #f4f6fc;
 
+
 /*-----------------------
     fONT SIZES
 ------------------------*/
+--header-font-size: 3.75rem;
+--subheader-font-size: 1.43rem;
 
 
 /*-----------------------
     FONT FAMILIES
 ------------------------*/
 --button-font-family: 'Chewy', system-ui;
+--primary-font-family: 'Alfa Slab One', system-ui;
+--secondary-font-family: 'Host Grotesk', system-ui;
 
 
 /*-----------------------
     SPACING
 ------------------------*/
-
+--header-spacing: 0.15vw;
+--subheader-spacing: 0.03vw;
 
 
 /*-----------------------
     BOX SHADOWS
 ------------------------*/
 
+
 /*-----------------------
     BORDERS
 ------------------------*/
 --button-border: 4px solid #282c4b;
+
+
+/*-----------------------
+    TRANSITIONS
+------------------------*/
+--button-transition: transform 0.4s ease, background-color 0.2s ease;
+
 
 }
 
