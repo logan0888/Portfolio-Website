@@ -12,16 +12,12 @@ html, body {
 ----------------------------*/
 .side-nav {
   background-color: var(--extra-bg-color);
-  border-top: 5px dashed var(--button-bg-color);
-  border-right: 5px dashed var(--button-bg-color);
-  border-bottom: 5px dashed var(--button-bg-color);
-
-
+  border-right: 5.75px dashed var(--button-bg-color);
   position: fixed;
-  left: 0;
   top: 0;
+  left: 0;
   height: 100%;
-  padding: 3rem;
+  padding: 2.5rem;
 }
 
 .side-nav-list {
@@ -31,23 +27,57 @@ html, body {
 }
 
 .side-nav-item {
-  padding: 3.4vh 2vw;
+  padding: 4vh 1.75vw;
 }
+
 .side-nav-item a {
   color: var(--primary-text-color);
   font-size: var(--nav-font-size);
   font-family: var(--button-font-family);
   text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.side-nav-item a:hover {
+  color: var(--button-hover-color);
 }
 
 
-.main-content {
-  margin-left: 260px;
-  margin-top: 1rem;
-}
-
+/*----------------------------
+  ABOUT ME SECTION
+----------------------------*/
 .header {
   text-align: center;
   text-decoration: underline;
   color: var(--primary-text-color);
+  font-family: var(--primary-font-family);
+  letter-spacing: 0.12vw;
+  font-weight: normal;
+  font-size: var(--subheader-font-size);
+}
+
+.main-content-wrapper {
+  display: flex;
+  gap: 2.5vw;
+  align-items: flex-start;
+}
+
+.main-content-img {
+  width: 360px;
+  height: auto;
+  margin-left: 23.5%;
+  margin-top: 7.5vh;
+}
+
+.main-content-txt {
+  color: var(--primary-text-color);
+  font-family: var(--secondary-font-family);
+  font-size: var(--text-font-size); 
+  line-height: 1.65;
+  width: 44%;
+}
+
+.main-content-txt a {
+  color: var(--link-txt-color);
+  font-family: var(--secondary-font-family);
 }

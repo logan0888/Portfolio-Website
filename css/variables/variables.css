@@ -14,15 +14,15 @@ body {
     TEXT COLORS
 ------------------------*/
 --primary-text-color: #f4f6fc;
-
+--link-txt-color: #b0bbe4;;
 
 /*-----------------------
     fONT SIZES
 ------------------------*/
 --header-font-size: 3.75rem;
 --subheader-font-size: 1.43rem;
---nav-font-size: 1.8rem;
-
+--nav-font-size: 1.9rem;
+--text-font-size: 1.35rem;
 /*-----------------------
     FONT FAMILIES
 ------------------------*/
