@@ -1,8 +1,53 @@
 /*----------------------------
-    PAGE SETUP
+  PAGE SETUP
 ----------------------------*/
 html, body {
   margin: 0;
   padding: 0;
   background-color: var(--secondary-bg-color);
+}
+
+/*----------------------------
+  NAVIGATION BAR
+----------------------------*/
+.side-nav {
+  background-color: var(--extra-bg-color);
+  border-top: 5px dashed var(--button-bg-color);
+  border-right: 5px dashed var(--button-bg-color);
+  border-bottom: 5px dashed var(--button-bg-color);
+
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  padding: 3rem;
+}
+
+.side-nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-nav-item {
+  padding: 3.4vh 2vw;
+}
+.side-nav-item a {
+  color: var(--primary-text-color);
+  font-size: var(--nav-font-size);
+  font-family: var(--button-font-family);
+  text-decoration: none;
+}
+
+
+.main-content {
+  margin-left: 260px;
+  margin-top: 1rem;
+}
+
+.header {
+  text-align: center;
+  text-decoration: underline;
+  color: var(--primary-text-color);
 }

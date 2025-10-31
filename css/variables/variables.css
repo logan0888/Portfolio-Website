@@ -4,8 +4,10 @@ body {
 -----------------------*/
 --primary-bg-color: #050a30;
 --secondary-bg-color: #282c4b;
+--extra-bg-color: #1c2030;
 --button-bg-color: #616e9e;
 --button-hover-color: #727ba8;
+
 
 
 /*-----------------------
@@ -19,7 +21,7 @@ body {
 ------------------------*/
 --header-font-size: 3.75rem;
 --subheader-font-size: 1.43rem;
-
+--nav-font-size: 1.8rem;
 
 /*-----------------------
     FONT FAMILIES
