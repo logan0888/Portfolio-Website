@@ -32,7 +32,7 @@ html, body {
     color: var(--primary-text-color);
     font-size: var(--subheader-font-size);
     letter-spacing: var(--subheader-spacing);
-    font-style: italic;;
+    font-style: italic;
     text-align: center;
 }
 
@@ -62,7 +62,7 @@ html, body {
 
 .nav-button:hover {
     transform: scale(1.02);
-    background-color: #727ba8;
+    background-color: var(--button-hover-color);
 }
 
 .nav-icon {

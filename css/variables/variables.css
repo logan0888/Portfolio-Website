@@ -14,10 +14,10 @@ body {
     TEXT COLORS
 ------------------------*/
 --primary-text-color: #f4f6fc;
---link-txt-color: #b0bbe4;;
+--link-txt-color: #b0bbe4;
 
 /*-----------------------
-    fONT SIZES
+    FONT SIZES
 ------------------------*/
 --header-font-size: 3.75rem;
 --subheader-font-size: 1.43rem;
@@ -54,8 +54,4 @@ body {
 ------------------------*/
 --button-transition: transform 0.4s ease, background-color 0.2s ease;
 
-
 }
-
-
-
