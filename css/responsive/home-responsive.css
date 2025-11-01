@@ -1,0 +1,85 @@
+/*-----------------------------
+    SCREENS 662px AND BELOW
+------------------------------*/
+@media (max-width: 662px) {
+    .header-name {
+        font-size: 2.9rem;
+    }
+
+    .subheader-txt {
+        font-size: 1.15rem;
+    }
+}
+
+/*-----------------------------
+    SCREENS 550px AND BELOW
+------------------------------*/
+@media (max-width: 550px) {
+    .nav-button {
+        gap: 1.25vw;
+        width: 78%;
+        height: 125px;
+    }
+
+    .nav-text {
+        font-size: 2.2rem;
+    }
+    .nav-icon {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/*-----------------------------
+    SCREENS 512px AND BELOW
+------------------------------*/
+@media (max-width: 512px) {
+    .header-name {
+        font-size: 2.6rem;
+    }
+    .subheader-txt {
+        font-size: 1.05rem;
+    }
+    .nav-text {
+        font-size: 2rem;
+    }
+}
+
+/*-----------------------------
+    SCREENS 460px AND BELOW
+------------------------------*/
+@media (max-width: 460px) {
+    .header-name {
+        font-size: 2.3rem;
+        margin-bottom: -1.2vh;
+    }
+    .subheader-txt {
+        font-size: 0.95rem;
+    }
+}
+
+/*-----------------------------
+    SCREENS 406px AND BELOW
+------------------------------*/
+@media (max-width: 406px) {
+    .header-name {
+        font-size: 2rem;
+    }
+    .subheader-txt {
+        font-size: 0.85rem;
+    }
+    .nav-button {
+        gap: 0.75vw;
+        width: 75%;
+        height: 110px;
+    }
+
+    .nav-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nav-text {
+        font-size: 1.8rem;
+    }
+}
