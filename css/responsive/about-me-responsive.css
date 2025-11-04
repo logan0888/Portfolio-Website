@@ -20,10 +20,14 @@
     }
 }
 
+
 /*-----------------------------
     SCREENS 918px AND BELOW
 ------------------------------*/
-@media (max-width: 918px) { 
+@media (max-width: 918px) {
+    .side-nav {
+        padding: 0.5rem;
+    } 
     .main-content-wrapper {
         flex-direction: column;
         align-items: center;
@@ -31,10 +35,83 @@
     .main-content-img {
         margin-left: 10vw;
         margin-top: 2.5vh;
+        width: 260px;
     }
     .main-content-txt {
-        width: 55vw;
-        margin-left: 15vw;
+        width: 60vw;
+        margin-left: 20%;
         margin-top: 3vh;
     }
+}
+
+
+/*-----------------------------
+    SCREENS 786px AND BELOW
+------------------------------*/
+@media (max-width: 786px) {
+    .header {
+        font-size: 1.2rem;
+        margin-left: 15%;
+    }
+    .main-content-img {
+        margin-left: 15vw;
+    }
+    .main-content-txt {
+        margin-left: 27.5%;
+        font-size: 1.025rem;
+        width: 65vw;
+    }
+}
+
+
+/*-----------------------------
+    SCREENS 720px AND BELOW
+------------------------------*/
+@media (max-width: 720px) {
+    .header {
+        margin-left: 20%;
+    }
+    .main-content-img {
+        width: 220px;
+        margin-left: 22.5vw;
+    }
+    .main-content-txt {
+        margin-left: 31%;
+        font-size: 1.015rem;
+        width: 63vw;
+    }
+}
+
+
+/*-----------------------------
+    SCREENS 660px AND BELOW
+------------------------------*/
+@media (max-width: 660px) { 
+    .side-nav {
+        padding: 0.25rem;
+    }
+    .side-nav-item a {
+        font-size: 1.75rem;
+    }
+    .header {
+        font-size: 1.1rem;
+        margin-left: 23.5%;
+    }
+    .main-content-img {
+        margin-left: 25.75vw;
+        width: 230px;
+    }
+    .main-content-txt {
+        margin-left: 28.5%;
+        font-size: 1.01rem;
+        width: 61.5vw;
+    }
+}
+
+
+/*-----------------------------
+    SCREENS 600px AND BELOW
+------------------------------*/
+@media (max-width: 600px) {
+
 }

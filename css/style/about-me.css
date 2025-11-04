@@ -75,6 +75,7 @@ html, body {
   font-size: var(--text-font-size); 
   line-height: 1.65;
   width: 45.8%;
+  margin-bottom: 7.5vh;
 }
 
 .main-content-txt a {
