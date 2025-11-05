@@ -12,7 +12,7 @@ html, body {
 ----------------------------*/
 .header {
     text-align: center;
-    margin-left: 20.5%;
+    margin-left: 13.5%;
 }
 
 .header-txt {
@@ -31,17 +31,16 @@ html, body {
     padding: 2rem;
     max-width: 1000px;
     margin: 0 auto;
-    margin-left: 23.5%;
+    margin-left: 28.75%;
 }
 
 .contact-container {
     background-color: var(--button-bg-color);
     border: 3.75px solid var(--extra-bg-color);
-    border-radius: 35px;
-    padding-left: 5%;
-    padding-right: 5%;
     box-shadow: var(--button-box-shadow);
-
+    border-radius: 47px;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
     transition: all 0.5s ease;
 }
 
@@ -56,27 +55,27 @@ html, body {
 .contact-container p {
     color: var(--primary-text-color);
     font-family: var(--secondary-font-family);
-    font-size: 1.3rem;
+    letter-spacing: var(--text-letter-spacing);
+    font-size: 1.35rem;
     text-align: center;
     margin-top: 1.2vh;
-    margin-bottom: 2.25vh;
-    letter-spacing: var(--text-letter-spacing);
+    margin-bottom: 1.75vh;
 }
 
 .contact-container a {
-    background-color: #47537e;
+    background-color: var(--floating-bg-color);
     border: var(--button-border);
     transition: var(--button-transition);
     color: var(--primary-text-color);
     font-family: var(--button-font-family);
+    transition: var(--button-transition);
     font-size: 1.75rem;
-    padding: 0.5rem 1.5rem;
-    border-radius: 90px;
+    padding: 0.8rem 1.85rem;
+    border-radius: 100px;
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 2.25vh;
+    margin-bottom: 2.5vh;
     margin-left: 26.5%;
-    transition: var(--button-transition);
 }
 .contact-container a:hover {
     background-color: #434c72;
