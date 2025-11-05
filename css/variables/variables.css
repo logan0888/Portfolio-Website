@@ -2,11 +2,11 @@ body {
 /*----------------------
     BACKGROUND COLORS
 -----------------------*/
---primary-bg-color: #050a30;
+--primary-bg-color: #1a1e3b;
 --secondary-bg-color: #282c4b;
 --extra-bg-color: #1c2030;
 --button-bg-color: #616e9e;
---button-hover-color: #727ba8;
+--button-hover-color: #5c6697;
 
 
 
@@ -20,7 +20,7 @@ body {
     FONT SIZES
 ------------------------*/
 --header-font-size: 3.75rem;
---subheader-font-size: 1.43rem;
+--subheader-font-size: 1.9rem;
 --nav-font-size: 1.9rem;
 --text-font-size: 1.35rem;
 /*-----------------------
@@ -36,6 +36,7 @@ body {
 ------------------------*/
 --header-spacing: 0.15vw;
 --subheader-spacing: 0.03vw;
+--text-letter-spacing: 0.025vw;
 
 
 /*-----------------------

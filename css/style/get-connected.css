@@ -1,0 +1,75 @@
+/*----------------------------
+  PAGE SETUP
+----------------------------*/
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--secondary-bg-color);
+}
+
+.header {
+    text-align: center;
+    margin-left: 12.5vw;
+}
+
+.header-txt {
+    font-size: var(--header-font-size);
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    letter-spacing: 0.12vw;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5rem;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-left: 30.5vw;
+}
+
+.contact-container {
+    background-color: var(--button-bg-color);
+    border: 3.75px solid var(--extra-bg-color);
+    border-radius: 35px;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.contact-container img {
+    margin: 2vh 27%;
+    width: 203.75px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+.contact-container p {
+    color: var(--primary-text-color);
+    font-family: var(--secondary-font-family);
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1.2vh;
+    margin-bottom: 2.25vh;
+    letter-spacing: var(--text-letter-spacing);
+}
+.contact-container a {
+    background-color: #47537e;
+    border: var(--button-border);
+    transition: var(--button-transition);
+    color: var(--primary-text-color);
+    font-family: var(--button-font-family);
+    font-size: 1.75rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 90px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2.25vh;
+    margin-left: 26.5%;
+}
+
+
+
