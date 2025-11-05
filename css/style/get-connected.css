@@ -7,9 +7,12 @@ html, body {
   background-color: var(--secondary-bg-color);
 }
 
+/*----------------------------
+  GET CONNECTED SECTION
+----------------------------*/
 .header {
     text-align: center;
-    margin-left: 12.5vw;
+    margin-left: 20.5%;
 }
 
 .header-txt {
@@ -28,15 +31,18 @@ html, body {
     padding: 2rem;
     max-width: 1000px;
     margin: 0 auto;
-    margin-left: 30.5vw;
+    margin-left: 23.5%;
 }
 
 .contact-container {
     background-color: var(--button-bg-color);
     border: 3.75px solid var(--extra-bg-color);
     border-radius: 35px;
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 5px 5px 8px 8px #0000001A;
+
+    transition: all 0.5s ease;
 }
 
 .contact-container img {
@@ -56,6 +62,7 @@ html, body {
     margin-bottom: 2.25vh;
     letter-spacing: var(--text-letter-spacing);
 }
+
 .contact-container a {
     background-color: #47537e;
     border: var(--button-border);
@@ -69,7 +76,12 @@ html, body {
     display: inline-block;
     margin-bottom: 2.25vh;
     margin-left: 26.5%;
+    transition: var(--button-transition);
 }
-
-
-
+.contact-container a:hover {
+    background-color: #434c72;
+    transform: translateY(-3.5px);
+}
+.contact-container:hover {
+    transform: translateY(-5px);
+}
