@@ -1,0 +1,157 @@
+/*-----------------------------
+    SCREENS 1000px AND BELOW
+------------------------------*/
+@media (max-width: 1000px) {
+    .header {
+        margin-left: 23.5%;
+    }
+    .main-content {
+        gap: 17vh;
+        margin-bottom: 13vh;
+    }
+    .contact-container {
+        margin-left: 5%;
+        margin-right: 15.5%;
+        margin-bottom: -13vh;
+    }
+    .contact-container img {
+        margin-left: 30%;
+    }
+    .contact-container p {
+        font-size: 1.4rem;
+        margin-top: 0vh;
+        margin-bottom: 4.75vh;
+    }
+}
+
+
+/*-----------------------------
+    SCREENS 820px AND BELOW
+------------------------------*/
+@media (max-width: 820px) {
+    .header-txt{
+        font-size: 3.15rem;
+    }
+    .main-content {
+        gap: 16vh;
+    }
+    .contact-container {
+        margin-right: 14%;
+        margin-left: 5%;
+    }
+    .contact-container img {
+        margin-left: 26.75%;
+    }
+    .contact-container p {
+        font-size: 1.35rem;
+    }
+}
+
+
+/*-----------------------------
+    SCREENS 726px AND BELOW
+------------------------------*/
+@media (max-width: 726px) { 
+    .header {
+        margin-left: 26%;
+    }
+    .header-txt {
+        font-size: 2.75rem;
+    }
+    .contact-container {
+        margin-right: 8.25%;
+        margin-left: 5.25%;
+    }
+    .contact-container img {
+        margin-left: 23.25%;
+    }
+    .contact-container p {
+        font-size: 1.3rem;
+    }
+    .contact-container a {
+        font-size: 1.65rem;
+    }
+}
+
+
+/*-----------------------------
+    SCREENS 660px AND BELOW
+------------------------------*/
+@media (max-width: 660px) {
+    .contact-container {
+        margin-right: 5.75%;
+        margin-left: 3.25%;
+    }
+}
+
+
+/*-----------------------------
+    SCREENS 600px AND BELOW
+------------------------------*/
+@media (max-width: 600px) {
+    .header {
+        margin-left: 0;
+    }
+    .main-content {
+        margin: 0;
+    }
+    .contact-container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .contact-container img {
+        margin-left: 27.75%;
+    }
+}
+
+
+/*-----------------------------
+    SCREENS 480px AND BELOW
+------------------------------*/
+@media (max-width: 480px) {
+    .header {
+        margin-top: 2vh;
+    }
+    .header-txt {
+        font-size: 2.2rem;
+    }
+    .contact-container img {
+        margin-left: 21.75%;
+    }
+}
+
+
+/*-----------------------------
+    SCREENS 426px AND BELOW
+------------------------------*/
+@media (max-width: 426px) {
+    .contact-container img {
+        margin-left: 18.25%;
+    }
+    .contact-container {
+        margin-right: 7%;
+    }
+    .contact-container a {
+        margin-left: 10%;
+    }
+    .contact-container p {
+        font-size: 1.15rem;
+    }
+}
+
+/*-----------------------------
+    SCREENS 396px AND BELOW
+------------------------------*/
+@media (max-width: 396px) {
+    .header {
+        margin-top: 5vh;
+        margin-left: 2.5%;
+    }
+    .header-txt {
+        font-size: 2.15rem;
+    }
+    .contact-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
