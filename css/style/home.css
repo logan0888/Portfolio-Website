@@ -58,10 +58,11 @@ html, body {
     padding: 0.5rem 1.4rem;
     border-radius: 90px;
     text-decoration: none;
+    box-shadow: var(--button-box-shadow);
 }
 
 .nav-button:hover {
-    transform: scale(1.02);
+    transform: translateY(-3.55px);
     background-color: var(--button-hover-color);
 }
 
